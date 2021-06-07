@@ -1,0 +1,36 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+	font-size: 20px;
+	font-family: 'Caveat', cursive;
+	background-color: #66CDAA
+}
+p{
+	color:red;
+	margin: 30px;
+}
+img{
+  	max-width: 100%;
+  	height: auto;
+  	display: block;
+  }
+div{
+	width:90%;
+	margin: auto;
+    background-color: #B0C4DE;
+    padding: 50px;
+}
+ a{
+ 	text-decoration: none;
+ 	color: tomato ;
+ 	display: inline-block; 
+ 	margin: 20px 0;
+ 	border-bottom: 1px solid transparent;
+ 	transition: 0.2s ease-in;
+ }
+ a:hover {
+ 	border-bottom-color:#483D8B;
+ }
